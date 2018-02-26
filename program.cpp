@@ -10,7 +10,6 @@ private:
   int** a;
   int p;
 public:
-
   test(MatrixXf t);
   test(int x);
   void print();
