@@ -87,7 +87,7 @@ public:
 void add(test &b,test &c)
 {
   int i, j;
-  if(b.p==c.p //Dimensions check
+  if(b.p==c.p) //Dimensions check
   {
     int t[b.p][b.p];
     for (i = 0; i < b.p; i++)
